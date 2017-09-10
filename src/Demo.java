@@ -1,5 +1,15 @@
 public class Demo {
-    public static void main(String[] args0){
-        System.out.println("hello world");
+    Demo(){
+
+    }
+
+    void say(){
+        System.out.println("demo");
+    }
+}
+
+class Test extends Demo{
+    public static void main(String []args0){
+        new Test().say();
     }
 }
